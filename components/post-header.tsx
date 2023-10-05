@@ -6,18 +6,12 @@ type Props = {
   title: string
   coverImage: string
   date: string
-  tags: string[]
 }
 
-const PostHeader = ({ title, coverImage, date, tags }: Props) => {
+const PostHeader = ({ title, coverImage, date }: Props) => {
   return (
     <>
       <PostTitle>{title}</PostTitle>
-      <ul className="flex gap-x-2 mb-12">
-        {
-          tags.map((tag) => <li className="font-bold" key={tag}><a href={`/tags/${tag}`}>{tag}</a></li>)
-        }
-      </ul>
       <div className="mb-8 md:mb-16 sm:mx-0">
         <CoverImage title={title} src={coverImage} />
       </div>

@@ -8,9 +8,6 @@ author:
   picture: "/assets/blog/authors/tim.jpeg"
 ogImage:
   url: "/assets/blog/hello-world/cover.jpg"
-tags:
-  - "tag1"
-  - "tag2"
 ---
 
 # URL だけの行
