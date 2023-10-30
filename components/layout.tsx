@@ -11,11 +11,13 @@ const Layout = ({ children }: Props) => {
   return (
     <>
       <Meta />
-      <Header />
-      <div className="min-h-screen">
-        <main>{children}</main>
+      <div className="font-body">
+        <Header />
+        <div className="min-h-screen">
+          <main>{children}</main>
+        </div>
+        <Footer />
       </div>
-      <Footer />
     </>
   )
 }
