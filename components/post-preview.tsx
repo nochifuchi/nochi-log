@@ -16,24 +16,22 @@ const PostPreview = ({
   slug,
 }: Props) => {
   return (
-    <div className="flex flex-row">
-      <div className="w-32 h-32">
-        <CoverImage slug={slug} title={title} src={coverImage} />
-      </div>
-      <div className="flex-1 ml-4">
-        <h3 className="text-xl">
-          <Link
-            as={`/posts/${slug}`}
-            href="/posts/[slug]"
-            className="hover:underline"
-          >
-            {title}
-          </Link>
-        </h3>
-        <div className="text-lg mb-4">
-          <DateFormatter dateString={date} />
+    <div>
+      <Link
+        as={`/posts/${slug}`}
+        href="/posts/[slug]"
+        className="block flex flex-row"
+      >
+        <div className="w-32 h-32">
+          <CoverImage title={title} src={coverImage} />
         </div>
-      </div>
+        <div className="flex-1 ml-4">
+          <h3 className="text-base">{title}</h3>
+          <div className="text-lg mb-4">
+            <DateFormatter dateString={date} />
+          </div>
+        </div>
+      </Link>
     </div>
   )
 }
