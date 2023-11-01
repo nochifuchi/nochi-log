@@ -20,16 +20,14 @@ const PostPreview = ({
       <Link
         as={`/posts/${slug}`}
         href="/posts/[slug]"
-        className="block flex flex-row"
+        className="block flex flex-row items-start bg-primary-dark-grey rounded-lg h-full p-4"
       >
-        <div className="w-32 h-32">
-          <CoverImage title={title} src={coverImage} />
-        </div>
-        <div className="flex-1 ml-4">
-          <h3 className="text-base">{title}</h3>
-          <div className="text-lg mb-4">
+        <CoverImage title={title} src={coverImage} />
+        <div className="flex-1 ml-3">
+          <h3 className="text-base leading-6">{title}</h3>
+          {/* <div className="text-lg mb-4">
             <DateFormatter dateString={date} />
-          </div>
+          </div> */}
         </div>
       </Link>
     </div>
