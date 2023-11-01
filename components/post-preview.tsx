@@ -24,7 +24,7 @@ const PostPreview = ({
       >
         <CoverImage title={title} src={coverImage} />
         <div className="flex-1 ml-3">
-          <h3 className="text-base leading-6">{title}</h3>
+          <h3 className="text-base leading-6 line-clamp-3">{title}</h3>
           {/* <div className="text-lg mb-4">
             <DateFormatter dateString={date} />
           </div> */}
