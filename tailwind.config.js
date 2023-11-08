@@ -15,6 +15,9 @@ module.exports = {
           'dark-grey': '#d9d9d9',
           'grey': '#ececec',
           'light-grey': '#F5F2F2'
+        },
+        'accent': {
+          'blue': '#55B0F2',
         }
       },
     },
