@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 const Sidebar = () => {
   return (
-    <section className="ml-0 md:ml-10 shrink-0 md:w-64">
+    <section className="ml-0 md:ml-8 mb-7 md:md-0 shrink-0 md:w-64">
       <div className="h-full w-full">
         <section className="border-b-2 border-primary-dark-grey pb-7">
           <div className="flex flex-row items-center">
@@ -15,7 +15,7 @@ const Sidebar = () => {
         </section>
         <ul className="mt-3">
           <li>
-            <Link href="https://qiita.com/nochifuchi" target="_blank" className="text-xl flex flex-row justify-end items-center">
+            <Link href="https://qiita.com/nochifuchi" target="_blank" className="text-xl flex flex-row md:justify-end items-center">
               <span>Qiita</span>
               <span className="ml-1 material-symbols-outlined">open_in_new</span>
             </Link>
