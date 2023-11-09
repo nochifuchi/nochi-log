@@ -13,6 +13,14 @@ const Sidebar = () => {
           </div>
           <p className="mt-4 text-sm">東京都在住のマークアップエンジニア。マークアップに関する備忘録やWEB解析に関する記事を中心に載せていきます。</p>
         </section>
+        <ul className="mt-3">
+          <li>
+            <Link href="https://qiita.com/nochifuchi" target="_blank" className="text-xl flex flex-row justify-end items-center">
+              <span>Qiita</span>
+              <span className="ml-1 material-symbols-outlined">open_in_new</span>
+            </Link>
+          </li>
+        </ul>
       </div>
     </section>
   )
