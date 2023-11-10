@@ -4,7 +4,7 @@ const Sidebar = () => {
   return (
     <section className="ml-0 md:ml-8 mb-7 md:md-0 shrink-0 md:w-64">
       <div className="h-full w-full">
-        <section className="border-b-2 border-primary-dark-grey pb-7">
+        <section className="border-b-2 border-primary-dark-grey pb-4 md:pb-7">
           <div className="flex flex-row items-center">
             <figure>
               <img className="rounded-full border-2 border-primary-dark-grey" src="/assets/profile.jpg" width="90" height="90" alt="Profile Picture" />
