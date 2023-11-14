@@ -20,7 +20,7 @@ const PostPreview = ({
       <Link
         as={`/posts/${slug}`}
         href="/posts/[slug]"
-        className="block flex flex-row items-start bg-primary-grey hover:bg-primary-light-grey transition rounded-lg h-full p-4"
+        className="block flex flex-row items-start bg-primary-light-gray hover:bg-primary-gray transition rounded-lg h-full p-4"
       >
         <CoverImage title={title} src={coverImage} />
         <div className="flex-1 ml-3">
