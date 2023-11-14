@@ -4,10 +4,10 @@ const Sidebar = () => {
   return (
     <section className="ml-0 md:ml-8 mb-7 md:md-0 shrink-0 md:w-64">
       <div className="h-full w-full">
-        <section className="border-b-2 border-primary-dark-grey pb-4 md:pb-7">
+        <section className="border-b-2 border-primary-dark-gray pb-4 md:pb-7">
           <div className="flex flex-row items-center">
             <figure>
-              <img className="rounded-full border-2 border-primary-dark-grey" src="/assets/profile.jpg" width="90" height="90" alt="Profile Picture" />
+              <img className="rounded-full border-2 border-primary-dark-gray" src="/assets/profile.jpg" width="90" height="90" alt="Profile Picture" />
             </figure>
             <p className="ml-4">nochio</p>
           </div>
@@ -15,7 +15,7 @@ const Sidebar = () => {
         </section>
         <ul className="mt-3">
           <li className="md:text-right">
-            <Link href="https://qiita.com/nochifuchi" target="_blank" className="inline-block">
+            <Link href="https://qiita.com/nochifuchi" target="_blank" className="inline-block hover:text-primary-dark-gray">
               <div className="flex flex-row items-center text-xl">
                 <span>Qiita</span>
                 <span className="ml-1 material-symbols-outlined">open_in_new</span>
