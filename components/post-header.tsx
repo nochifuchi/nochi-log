@@ -9,7 +9,7 @@ type Props = {
 const PostHeader = ({ title, coverImage, date }: Props) => {
   return (
     <>
-      <figure className="flex h-60 items-center justify-center rounded-lg border-2 border-primary-gray">
+      <figure className="flex h-44 md:h-60 items-center justify-center rounded-lg border-2 border-primary-gray">
         <img src={coverImage} alt={title} width="96" height="96" />
       </figure>
       <PostTitle>{title}</PostTitle>
