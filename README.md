@@ -1,7 +1,7 @@
 # NOCHI LOG
 
-Next.js を使用したブログサイトです。
-GitHub リポジトリに Push すると GitHub Actions 経由で Firebase Hosting に自動デプロイされる仕組みになっています。
+Next.js を使用したブログサイトです。  
+GitHub リポジトリに Push すると GitHub Actions 経由で Firebase Hosting に自動デプロイされる仕組みになっています。  
 CSS フレームワークは Tailwind CSS を使用しています。
 
 ## 使用技術
@@ -13,7 +13,7 @@ CSS フレームワークは Tailwind CSS を使用しています。
 - Next.js (SSG) - ブログ機能
 - Tailwind CSS - CSS フレームワーク
 
-### ローカル環境立ち上げ
+## ローカル環境立ち上げ
 
 ```bash
 docker compose up -d
